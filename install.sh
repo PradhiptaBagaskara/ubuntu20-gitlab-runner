@@ -1,4 +1,6 @@
-apt-get update -y
+apt-get update -y && apt-get upgrade -y
+add-apt-repository ppa:deadsnakes/ppa
+apt-get update -y 
 apt-get install python3.7 -y
 wget https://bootstrap.pypa.io/get-pip.py
 python3.7 get-pip.py
